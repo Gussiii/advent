@@ -1,6 +1,5 @@
 #%%
 
-from operator import indexOf
 from pathlib import Path
 import re
 
@@ -36,8 +35,3 @@ for triger in index:
         count += ratio
     ratio = 1
 
-print(count)
-
-#%%
-
-# %%
